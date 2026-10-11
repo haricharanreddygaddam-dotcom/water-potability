@@ -1,0 +1,67 @@
+{
+  "accuracy": 0.8171,
+  "precision": 0.7636,
+  "recall": 0.7695,
+  "f1_score": 0.7665,
+  "roc_auc": 0.8827,
+  "confusion_matrix": [
+    [
+      339,
+      61
+    ],
+    [
+      59,
+      197
+    ]
+  ],
+  "n_samples": 3276,
+  "potable_count": 1278,
+  "non_potable_count": 1998,
+  "feature_importances": [
+    {
+      "feature": "ph",
+      "importance": 0.4219,
+      "name": "pH Level"
+    },
+    {
+      "feature": "Solids",
+      "importance": 0.1575,
+      "name": "Total Dissolved Solids (TDS)"
+    },
+    {
+      "feature": "Organic_carbon",
+      "importance": 0.0725,
+      "name": "Total Organic Carbon (TOC)"
+    },
+    {
+      "feature": "Chloramines",
+      "importance": 0.0719,
+      "name": "Chloramines"
+    },
+    {
+      "feature": "Trihalomethanes",
+      "importance": 0.0718,
+      "name": "Trihalomethanes (THMs)"
+    },
+    {
+      "feature": "Sulfate",
+      "importance": 0.0566,
+      "name": "Sulfate"
+    },
+    {
+      "feature": "Hardness",
+      "importance": 0.0524,
+      "name": "Hardness"
+    },
+    {
+      "feature": "Turbidity",
+      "importance": 0.0477,
+      "name": "Turbidity"
+    },
+    {
+      "feature": "Conductivity",
+      "importance": 0.0476,
+      "name": "Conductivity"
+    }
+  ]
+}
